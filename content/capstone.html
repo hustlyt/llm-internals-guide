@@ -1,0 +1,6 @@
+<ol class="tight">
+  <li><strong>从零手写一个支持 KV Cache 的 GPT</strong>：自注意力 + RoPE + GQA + KV Cache，在 TinyShakespeare 或 FineWeb 子集上训练，可在 CPU 或单卡上运行，支持流式生成。</li>
+  <li><strong>微调 + 对齐一个 1–3B 模型</strong>：选一个开源基座（Qwen2.5-1.5B 或 LLaMA-3.2-1B），用 LoRA 做 SFT，再用 DPO 做偏好对齐，用 MT-Bench 或自定义评估集打分，对比微调前后。</li>
+  <li><strong>推理优化项目</strong>：给上面手写的 GPT 加 INT8 量化和投机解码，测量不同 batch size 下的吞吐与延迟，写一份量化+投机解码的取舍报告（至少含 3 个数据点）。</li>
+</ol>
+<p class="note">LLMs-from-scratch 第 6–7 章和附录包含大量综合实验代码可参考；self-llm 有已验证的 LoRA + DPO 流程。</p>

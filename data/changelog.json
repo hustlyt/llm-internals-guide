@@ -1,0 +1,33 @@
+[
+ {
+  "date": "2026-11-15",
+  "summary": "首次发布：20 条精选资料，覆盖 Transformer→KV Cache→微调→推理优化",
+  "stats": {"候选": 50, "审核": 25, "新增": 20, "移除": 0},
+  "initial": true,
+  "added": [
+   "rasbt-llms-from-scratch",
+   "mlabonne-llm-course",
+   "karpathy-nn-zero-to-hero",
+   "microsoft-genai-for-beginners",
+   "karpathy-build-nanogpt",
+   "karpathy-nanogpt",
+   "karpathy-mingpt",
+   "harvardnlp-annotated-transformer",
+   "tanishqkumar-beyond-nanogpt",
+   "poloclub-transformer-explainer",
+   "datawhalechina-self-llm",
+   "datawhalechina-llm-universe",
+   "mlabonne-llm-course-chn",
+   "huggingface-course",
+   "huggingface-smol-course",
+   "meta-llama-cookbook",
+   "mikexcohen-llm-course",
+   "w3cj-how-llms-work",
+   "njudeepengine-llm-course-lecture",
+   "googledeepmind-gemma"
+  ],
+  "changed": [],
+  "removed": [],
+  "guide_changes": ["首次发布学习路线，7 个阶段，10 周"]
+ }
+]

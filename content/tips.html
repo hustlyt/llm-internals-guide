@@ -1,0 +1,15 @@
+<section id="tips"><h2>避坑建议</h2>
+<ol class="tight">
+  <li><strong>先理解再运行。</strong>不要只是运行别人的 Notebook，每写一个模块都能手画出数据维度的变化。</li>
+  <li><strong>不要囤教程。</strong>主线只选一本（LLMs-from-scratch），其余当查阅地图。上面的清单是索引，不是待办。</li>
+  <li><strong>KV Cache 要亲手实现一遍。</strong>它是推理优化的核心，不实现一遍无法真正理解 vLLM 和 Paged Attention 的价值。</li>
+  <li><strong>从小模型开始。</strong>训练一个 10M 参数的 nanoGPT 比阅读 LLaMA 文档学到的多——小到能在 CPU 上跑，才能随意做实验。</li>
+  <li><strong>关注一手来源。</strong>HuggingFace、Meta AI、Google DeepMind 的官方博客和代码库永远比二手讲解更可靠。</li>
+</ol></section>
+
+<section id="ai-gen"><h2>关于 AI 生成的教程</h2>
+<ul class="tight">
+  <li>GitHub 上出现大量 "Transformer 教程" 仓库由 AI 批量生成，结构看似完整但常见问题：API 过时、维度计算有误、KV Cache 实现不正确。</li>
+  <li>它们最有价值的用法是当<strong>代码导读工具</strong>：用 LLM 对 nanoGPT、LLMs-from-scratch 生成逐行解释，再自己验证每个结论。</li>
+  <li>判断质量的快速方法：看是否有可运行代码和测试、维度断言是否通过、是否引用原始论文、Issue 区是否有人指出错误。</li>
+</ul></section>
