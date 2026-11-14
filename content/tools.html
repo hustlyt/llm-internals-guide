@@ -1,0 +1,111 @@
+<section id="visualizers">
+<h2>Transformer 可视化</h2>
+<div class="grid">
+  <div class="card">
+    <div class="role">交互式 · Attention + FFN</div>
+    <h4><a href="https://poloclub.github.io/transformer-explainer/" target="_blank">Transformer Explainer</a></h4>
+    <p>在浏览器里运行真实 GPT-2 权重，逐层展示 Embedding → 多头注意力 → FFN → LayerNorm → Softmax 的数值流动。可以自己输入文本，实时看每个 token 的 Attention 权重矩阵。<br><small>Georgia Tech 出品 · <a href="https://github.com/poloclub/transformer-explainer">源码 9k★</a></small></p>
+  </div>
+  <div class="card">
+    <div class="role">交互式 · LLM 推理全流程</div>
+    <h4><a href="https://bbycroft.net/llm" target="_blank">LLM Visualization (bbycroft)</a></h4>
+    <p>3D 可视化 nanoGPT 的完整推理过程：每个神经元的激活值、KV Cache 增长、采样步骤，可以暂停并检查任意时刻的中间状态。适合理解 KV Cache 和 Attention 计算的直觉。</p>
+  </div>
+  <div class="card">
+    <div class="role">交互式 · 注意力权重</div>
+    <h4><a href="https://huggingface.co/spaces/exbert-project/exbert" target="_blank">exBERT (HuggingFace Space)</a></h4>
+    <p>可视化 BERT 和 GPT-2 每一层、每个头的 Attention 模式，支持按词元过滤。适合理解多头注意力的分工和语义捕获。</p>
+  </div>
+  <div class="card">
+    <div class="role">交互式 · 电子表格 GPT</div>
+    <h4><a href="https://github.com/dabochen/spreadsheet-is-all-you-need" target="_blank">Spreadsheet is All You Need</a></h4>
+    <p>把 nanoGPT 的整个前向传播塞进 Excel：每个单元格对应一个矩阵运算，可以手动改权重观察输出变化。最适合彻底搞清矩阵维度。<a href="https://github.com/dabochen/spreadsheet-is-all-you-need">源码 2k★</a></p>
+  </div>
+</div>
+</section>
+
+<section id="tokenizers">
+<h2>Tokenizer 沙箱</h2>
+<div class="grid">
+  <div class="card">
+    <div class="role">在线 · BPE / tiktoken</div>
+    <h4><a href="https://tiktokenizer.vercel.app" target="_blank">Tiktokenizer</a></h4>
+    <p>在线输入任意文本，实时显示 GPT-4 / GPT-3.5 / o1 / Claude 的分词结果，每个 token 用颜色高亮区分，显示 token 总数。适合理解 BPE 分词边界和 token 计数。</p>
+  </div>
+  <div class="card">
+    <div class="role">在线 · HuggingFace tokenizers</div>
+    <h4><a href="https://huggingface.co/spaces/Xenova/the-tokenizer-playground" target="_blank">The Tokenizer Playground (HF Space)</a></h4>
+    <p>支持几十种开源模型的分词器（LLaMA-3、Qwen、Mistral、Gemma 等），对比不同分词器对同一段文本的处理结果。</p>
+  </div>
+  <div class="card">
+    <div class="role">在线 · BPE 训练过程</div>
+    <h4><a href="https://huggingface.co/learn/nlp-course/chapter6/5" target="_blank">HF NLP Course — BPE 章节</a></h4>
+    <p>HuggingFace 课程第 6 章第 5 节，逐步演示 BPE 合并步骤，含可运行代码，对照 LLMs-from-scratch 第 2 章一起读效果最好。</p>
+  </div>
+</div>
+</section>
+
+<section id="attention-debug">
+<h2>注意力与 KV Cache</h2>
+<div class="grid">
+  <div class="card">
+    <div class="role">交互式 · Attention 机制动画</div>
+    <h4><a href="https://jalammar.github.io/illustrated-transformer/" target="_blank">The Illustrated Transformer (Jay Alammar)</a></h4>
+    <p>图文并茂讲解 Transformer 每一步：Q/K/V 计算、缩放点积注意力、多头拼接、前馈网络。动图清晰，适合读完 LLMs-from-scratch 第 3 章后对照巩固。</p>
+  </div>
+  <div class="card">
+    <div class="role">交互式 · KV Cache 可视化</div>
+    <h4><a href="https://github.com/w3cj/how-llms-work" target="_blank">How LLMs Work (w3cj)</a></h4>
+    <p>交互式 App，逐 token 生成，实时展示 KV Cache 的增长过程、每步 Attention 权重的变化，以及采样步骤。适合理解自回归生成和 KV Cache 的直觉。<a href="https://github.com/w3cj/how-llms-work">源码 713★</a></p>
+  </div>
+  <div class="card">
+    <div class="role">图解 · 位置编码对比</div>
+    <h4><a href="https://jalammar.github.io/illustrated-gpt2/" target="_blank">The Illustrated GPT-2 (Jay Alammar)</a></h4>
+    <p>GPT-2 完整解析图：自回归生成的每一步、KV Cache 的作用、解码器 Attention mask。配合 build-nanogpt 视频使用，可互相印证。</p>
+  </div>
+</div>
+</section>
+
+<section id="training-tools">
+<h2>训练与微调工具</h2>
+<div class="grid">
+  <div class="card">
+    <div class="role">在线 · 神经网络可视化</div>
+    <h4><a href="https://playground.tensorflow.org" target="_blank">TensorFlow Playground</a></h4>
+    <p>在浏览器里训练小型神经网络，实时看决策边界、损失曲线。用于建立"激活函数、学习率、过拟合"的基本直觉，P0 阶段使用。</p>
+  </div>
+  <div class="card">
+    <div class="role">在线 · Colab 环境</div>
+    <h4><a href="https://colab.research.google.com" target="_blank">Google Colab</a></h4>
+    <p>免费 GPU/TPU 环境，LLMs-from-scratch 和 mlabonne/llm-course 的所有 Notebook 均可直接在 Colab 运行，无需本地 GPU。T4 15GB 可跑 7B 模型 INT4 量化推理。</p>
+  </div>
+  <div class="card">
+    <div class="role">在线 · 模型显存估算</div>
+    <h4><a href="https://huggingface.co/spaces/hf-accelerate/model-memory-usage" target="_blank">Model Memory Calculator (HF Space)</a></h4>
+    <p>输入模型名和精度（FP32/FP16/INT8/INT4），估算推理和训练所需显存。在 P5（推理优化）阶段规划显存预算时使用。</p>
+  </div>
+  <div class="card">
+    <div class="role">在线 · LoRA 参数计算器</div>
+    <h4><a href="https://huggingface.co/spaces/Nephele/lora-parameter-calculator" target="_blank">LoRA Parameter Calculator (HF Space)</a></h4>
+    <p>输入基座模型大小和 LoRA rank/alpha，计算可训练参数量和占比，帮助选择 rank 值与权衡效果和速度。P4（微调）阶段使用。</p>
+  </div>
+</div>
+</section>
+
+<section id="benchmarks">
+<h2>排行榜与评估</h2>
+<div class="grid">
+  <div class="card">
+    <div class="role">排行榜 · 开源模型</div>
+    <h4><a href="https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard" target="_blank">Open LLM Leaderboard (HF)</a></h4>
+    <p>开源 LLM 在标准基准（MMLU、GSM8K、HumanEval 等）上的对比评分，可按参数量、架构过滤。P4–P5 阶段选基座模型和评估微调效果时参考。</p>
+  </div>
+  <div class="card">
+    <div class="role">在线 · 生成速度对比</div>
+    <h4><a href="https://artificialanalysis.ai" target="_blank">Artificial Analysis</a></h4>
+    <p>对比主流 LLM API 的吞吐量（tokens/s）、延迟和价格，帮助理解推理优化的实际效果，P5（推理优化）阶段参考。</p>
+  </div>
+</div>
+</section>
+
+<p class="note">工具页内容会随资料库一起每周检查链接有效性。发现失效或有好的工具推荐，请在 <a href="https://github.com/hustlyt/llm-internals-guide/issues">GitHub Issues</a> 提出。</p>

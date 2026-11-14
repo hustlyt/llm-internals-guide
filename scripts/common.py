@@ -21,7 +21,8 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) llm-internals-guide-bot/1.0"
 
 TYPES = {"official": "官方", "community": "第三方", "academic": "学术", "ai": "AI 生成"}
 FORMATS = {"repo": "仓库", "course": "课程", "docs": "文档", "article": "文章",
-           "paper": "论文", "video": "视频", "newsletter": "Newsletter", "book": "书"}
+           "paper": "论文", "video": "视频", "newsletter": "Newsletter", "book": "书",
+           "website": "网站"}
 STATUSES = {"ok", "redirect", "broken", "archived", "stale"}
 
 

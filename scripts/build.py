@@ -172,8 +172,8 @@ def changelog_html(log: list, by_id: dict) -> str:
 
 
 NAV = [("home", "index.html", "首页"), ("path", "path.html", "学习路线"), ("refs", "resources.html", "资料库"),
-       ("capstone", "capstone.html", "毕业项目"), ("tips", "tips.html", "学习建议"),
-       ("changelog", "changelog.html", "更新日志")]
+       ("tools", "tools.html", "工具"), ("capstone", "capstone.html", "毕业项目"),
+       ("tips", "tips.html", "学习建议"), ("changelog", "changelog.html", "更新日志")]
 
 SEARCH_JS = r"""
 (function(){
@@ -338,6 +338,11 @@ def main() -> int:
           + rd("capstone.html"), "capstone")
     write("tips.html", f"学习建议 · {TITLE}",
           '<header class="pagehead"><h1>学习建议</h1></header>' + rd("tips.html"), "tips")
+    write("tools.html", f"工具 · {TITLE}",
+          '<header class="pagehead"><h1>辅助工具</h1>'
+          '<p class="lead">交互式可视化、沙箱环境与调试工具，帮助建立直觉、验证理解。</p></header>'
+          + rd("tools.html"), "tools",
+          "辅助学习大语言模型原理的交互式工具：Transformer 可视化、Tokenizer 沙箱、Attention 调试器。")
     log_body = (f'<header class="pagehead"><h1>更新日志</h1><p class="lead">每周一自动检索 GitHub、官方博客、技术社区、arXiv，'
                 f'经质量审核后收录。也可以 <a href="feed.xml">订阅 RSS</a>。</p></header>'
                 + changelog_html(log, by_id))
