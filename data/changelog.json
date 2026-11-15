@@ -1,6 +1,21 @@
 [
  {
   "date": "2026-11-15",
+  "summary": "每周更新：新增 3 条（minimind 中文全流程教程、LeetCUDA CUDA 内核书、RLHF/DPO 数学基础论文）；6 条 stale 资料标注 evergreen",
+  "stats": {"候选": 32, "审核": 13, "新增": 3, "移除": 0},
+  "added": ["jingyaogong-minimind", "xlite-dev-leetcuda", "arxiv-2610-31862"],
+  "changed": [
+   {"id": "karpathy-nn-zero-to-hero", "title": "karpathy/nn-zero-to-hero", "reason": "标注 evergreen: true，经典教材不因长期未推送而移除"},
+   {"id": "karpathy-build-nanogpt", "title": "karpathy/build-nanogpt", "reason": "标注 evergreen: true"},
+   {"id": "karpathy-nanogpt", "title": "karpathy/nanoGPT", "reason": "标注 evergreen: true"},
+   {"id": "karpathy-mingpt", "title": "karpathy/minGPT", "reason": "标注 evergreen: true"},
+   {"id": "harvardnlp-annotated-transformer", "title": "harvardnlp/annotated-transformer", "reason": "标注 evergreen: true"}
+  ],
+  "removed": [],
+  "guide_changes": []
+ },
+ {
+  "date": "2026-11-15",
   "summary": "手动新增：NANO-LLM 中文教程站",
   "stats": {
    "新增": 1
