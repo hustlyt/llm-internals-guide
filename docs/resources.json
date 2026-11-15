@@ -493,6 +493,22 @@
    "status": "ok",
    "last_checked": "2026-11-15",
    "note": ""
+  },
+  {
+   "id": "nano-ai-tech",
+   "title": "NANO-LLM",
+   "url": "https://nano-ai.tech/",
+   "category": "zh-community",
+   "type": "community",
+   "format": "website",
+   "lang": "中文",
+   "desc": "后端工程师写的中文 LLM 教程站，含图解推理/训练、从零手写 GPT-2→LLaMA（逐行讲解）、从零手写 Agent、论文研读，配套 8 阶段 51 知识点学习路线",
+   "pick": true,
+   "added": "2026-11-15",
+   "score": 8,
+   "status": "ok",
+   "last_checked": "2026-11-15",
+   "note": ""
   }
  ]
 }

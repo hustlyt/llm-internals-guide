@@ -1,8 +1,26 @@
 [
  {
   "date": "2026-11-15",
+  "summary": "手动新增：NANO-LLM 中文教程站",
+  "stats": {
+   "新增": 1
+  },
+  "added": [
+   "nano-ai-tech"
+  ],
+  "changed": [],
+  "removed": [],
+  "guide_changes": []
+ },
+ {
+  "date": "2026-11-15",
   "summary": "首次发布：20 条精选资料，覆盖 Transformer→KV Cache→微调→推理优化",
-  "stats": {"候选": 50, "审核": 25, "新增": 20, "移除": 0},
+  "stats": {
+   "候选": 50,
+   "审核": 25,
+   "新增": 20,
+   "移除": 0
+  },
   "initial": true,
   "added": [
    "rasbt-llms-from-scratch",
@@ -28,6 +46,8 @@
   ],
   "changed": [],
   "removed": [],
-  "guide_changes": ["首次发布学习路线，7 个阶段，10 周"]
+  "guide_changes": [
+   "首次发布学习路线，7 个阶段，10 周"
+  ]
  }
 ]

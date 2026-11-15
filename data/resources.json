@@ -1,21 +1,53 @@
 {
  "categories": [
-  {"id": "courses", "name": "系统课程（主线候选）"},
-  {"id": "from-scratch", "name": "从零手写 LLM / Transformer"},
-  {"id": "zh-community", "name": "中文社区教程"},
-  {"id": "official-docs", "name": "官方文档、模型库与 Cookbook"},
-  {"id": "internals", "name": "架构与 KV Cache 深度解析"},
-  {"id": "training", "name": "预训练、微调与对齐"},
-  {"id": "inference", "name": "推理优化与部署"},
-  {"id": "academic", "name": "学术课程与论文"},
-  {"id": "ai-generated", "name": "AI 生成 / AI 辅助教程"}
+  {
+   "id": "courses",
+   "name": "系统课程（主线候选）"
+  },
+  {
+   "id": "from-scratch",
+   "name": "从零手写 LLM / Transformer"
+  },
+  {
+   "id": "zh-community",
+   "name": "中文社区教程"
+  },
+  {
+   "id": "official-docs",
+   "name": "官方文档、模型库与 Cookbook"
+  },
+  {
+   "id": "internals",
+   "name": "架构与 KV Cache 深度解析"
+  },
+  {
+   "id": "training",
+   "name": "预训练、微调与对齐"
+  },
+  {
+   "id": "inference",
+   "name": "推理优化与部署"
+  },
+  {
+   "id": "academic",
+   "name": "学术课程与论文"
+  },
+  {
+   "id": "ai-generated",
+   "name": "AI 生成 / AI 辅助教程"
+  }
  ],
  "resources": [
   {
    "id": "rasbt-llms-from-scratch",
    "title": "rasbt/LLMs-from-scratch",
    "url": "https://github.com/rasbt/LLMs-from-scratch",
-   "extra_links": [{"label": "书", "url": "https://www.manning.com/books/build-a-large-language-model-from-scratch"}],
+   "extra_links": [
+    {
+     "label": "书",
+     "url": "https://www.manning.com/books/build-a-large-language-model-from-scratch"
+    }
+   ],
    "category": "courses",
    "type": "community",
    "format": "book",
@@ -57,7 +89,12 @@
    "id": "karpathy-nn-zero-to-hero",
    "title": "karpathy/nn-zero-to-hero",
    "url": "https://github.com/karpathy/nn-zero-to-hero",
-   "extra_links": [{"label": "视频", "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"}],
+   "extra_links": [
+    {
+     "label": "视频",
+     "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"
+    }
+   ],
    "category": "courses",
    "type": "community",
    "format": "video",
@@ -78,7 +115,12 @@
    "id": "microsoft-genai-for-beginners",
    "title": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "extra_links": [{"label": "网站", "url": "https://microsoft.github.io/generative-ai-for-beginners/"}],
+   "extra_links": [
+    {
+     "label": "网站",
+     "url": "https://microsoft.github.io/generative-ai-for-beginners/"
+    }
+   ],
    "category": "courses",
    "type": "official",
    "format": "course",
@@ -99,7 +141,12 @@
    "id": "karpathy-build-nanogpt",
    "title": "karpathy/build-nanogpt",
    "url": "https://github.com/karpathy/build-nanogpt",
-   "extra_links": [{"label": "视频", "url": "https://www.youtube.com/watch?v=l8pRSuU81PU"}],
+   "extra_links": [
+    {
+     "label": "视频",
+     "url": "https://www.youtube.com/watch?v=l8pRSuU81PU"
+    }
+   ],
    "category": "from-scratch",
    "type": "community",
    "format": "video",
@@ -162,7 +209,12 @@
    "id": "harvardnlp-annotated-transformer",
    "title": "harvardnlp/annotated-transformer",
    "url": "https://github.com/harvardnlp/annotated-transformer",
-   "extra_links": [{"label": "网站", "url": "https://nlp.seas.harvard.edu/annotated-transformer/"}],
+   "extra_links": [
+    {
+     "label": "网站",
+     "url": "https://nlp.seas.harvard.edu/annotated-transformer/"
+    }
+   ],
    "category": "from-scratch",
    "type": "academic",
    "format": "repo",
@@ -204,7 +256,12 @@
    "id": "poloclub-transformer-explainer",
    "title": "poloclub/transformer-explainer",
    "url": "https://github.com/poloclub/transformer-explainer",
-   "extra_links": [{"label": "Demo", "url": "https://poloclub.github.io/transformer-explainer/"}],
+   "extra_links": [
+    {
+     "label": "Demo",
+     "url": "https://poloclub.github.io/transformer-explainer/"
+    }
+   ],
    "category": "internals",
    "type": "academic",
    "format": "repo",
@@ -246,7 +303,12 @@
    "id": "datawhalechina-llm-universe",
    "title": "datawhalechina/llm-universe",
    "url": "https://github.com/datawhalechina/llm-universe",
-   "extra_links": [{"label": "文档", "url": "https://datawhalechina.github.io/llm-universe/"}],
+   "extra_links": [
+    {
+     "label": "文档",
+     "url": "https://datawhalechina.github.io/llm-universe/"
+    }
+   ],
    "category": "zh-community",
    "type": "community",
    "format": "course",
@@ -288,7 +350,12 @@
    "id": "huggingface-course",
    "title": "huggingface/course",
    "url": "https://github.com/huggingface/course",
-   "extra_links": [{"label": "网站", "url": "https://huggingface.co/learn/nlp-course"}],
+   "extra_links": [
+    {
+     "label": "网站",
+     "url": "https://huggingface.co/learn/nlp-course"
+    }
+   ],
    "category": "official-docs",
    "type": "official",
    "format": "course",
@@ -309,7 +376,12 @@
    "id": "huggingface-smol-course",
    "title": "huggingface/smol-course",
    "url": "https://github.com/huggingface/smol-course",
-   "extra_links": [{"label": "网站", "url": "https://huggingface.co/learn/smol-course"}],
+   "extra_links": [
+    {
+     "label": "网站",
+     "url": "https://huggingface.co/learn/smol-course"
+    }
+   ],
    "category": "training",
    "type": "official",
    "format": "course",
@@ -351,7 +423,12 @@
    "id": "mikexcohen-llm-course",
    "title": "mikexcohen/LLM_course",
    "url": "https://github.com/mikexcohen/LLM_course",
-   "extra_links": [{"label": "视频", "url": "https://www.udemy.com/course/ai-large-language-model-mechanisms/"}],
+   "extra_links": [
+    {
+     "label": "视频",
+     "url": "https://www.udemy.com/course/ai-large-language-model-mechanisms/"
+    }
+   ],
    "category": "academic",
    "type": "community",
    "format": "course",
@@ -414,7 +491,12 @@
    "id": "googledeepmind-gemma",
    "title": "google-deepmind/gemma",
    "url": "https://github.com/google-deepmind/gemma",
-   "extra_links": [{"label": "文档", "url": "https://ai.google.dev/gemma/docs"}],
+   "extra_links": [
+    {
+     "label": "文档",
+     "url": "https://ai.google.dev/gemma/docs"
+    }
+   ],
    "category": "official-docs",
    "type": "official",
    "format": "repo",
@@ -426,6 +508,23 @@
    "score": 7,
    "stars": 5849,
    "pushed_at": "2026-10-01",
+   "status": "ok",
+   "last_checked": "2026-11-15",
+   "note": "",
+   "fail_count": 0
+  },
+  {
+   "id": "nano-ai-tech",
+   "title": "NANO-LLM",
+   "url": "https://nano-ai.tech/",
+   "category": "zh-community",
+   "type": "community",
+   "format": "website",
+   "lang": "中文",
+   "desc": "后端工程师写的中文 LLM 教程站，含图解推理/训练、从零手写 GPT-2→LLaMA（逐行讲解）、从零手写 Agent、论文研读，配套 8 阶段 51 知识点学习路线",
+   "pick": true,
+   "added": "2026-11-15",
+   "score": 8,
    "status": "ok",
    "last_checked": "2026-11-15",
    "note": "",
