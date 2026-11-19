@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-11-19",
+  "summary": "手动新增：Tiny-LLM 推理系统项目课程",
+  "stats": {"新增": 1},
+  "added": ["skyzh-tiny-llm"],
+  "changed": [],
+  "removed": [],
+  "guide_changes": ["P5 选读增加 Tiny-LLM 进阶项目，标注 Apple silicon 要求"]
+ },
+ {
   "date": "2026-11-15",
   "summary": "每周更新：新增 3 条（minimind 中文全流程教程、LeetCUDA CUDA 内核书、RLHF/DPO 数学基础论文）；6 条 stale 资料标注 evergreen",
   "stats": {"候选": 32, "审核": 13, "新增": 3, "移除": 0},

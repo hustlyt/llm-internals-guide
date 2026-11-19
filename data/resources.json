@@ -578,6 +578,32 @@
    "fail_count": 0
   },
   {
+   "id": "skyzh-tiny-llm",
+   "title": "skyzh/tiny-llm",
+   "url": "https://skyzh.github.io/tiny-llm/",
+   "extra_links": [
+    {
+     "label": "GitHub",
+     "url": "https://github.com/skyzh/tiny-llm"
+    }
+   ],
+   "category": "inference",
+   "type": "community",
+   "format": "course",
+   "lang": "英文",
+   "github": "skyzh/tiny-llm",
+   "desc": "四周项目式课程：用 MLX 为 Qwen3 实现推理、算子优化与连续批处理",
+   "pick": false,
+   "added": "2026-11-19",
+   "score": 9,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-19",
+   "note": "进阶项目；需 Apple silicon，官方测试仅支持 MLX",
+   "fail_count": 0
+  },
+  {
    "id": "arxiv-2610-31862",
    "title": "Aligning LLMs with Human Feedback: Mathematical Foundations (arXiv 2610.31862)",
    "url": "https://arxiv.org/abs/2610.31862",
