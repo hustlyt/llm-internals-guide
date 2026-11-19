@@ -164,7 +164,7 @@ def changelog_html(log: list, by_id: dict) -> str:
             body += f'<h4>移除 {len(entry["removed"])}</h4><ul>{li(entry["removed"], "del")}</ul>'
         if entry.get("guide_changes"):
             body += "<h4>教程正文</h4><ul>" + "".join(f"<li>{e(x)}</li>" for x in entry["guide_changes"]) + "</ul>"
-        parts.append(f'''<article class="log" id="v{e(entry["date"])}">
+        parts.append(f'''<article class="log" id="{e(entry["anchor"])}">
 <header><time>{e(entry["date"])}</time><h3>{e(entry["summary"])}</h3>
 {f'<p class="note">{e(stat_txt)}</p>' if stat_txt else ""}</header>
 {body}</article>''')
@@ -252,7 +252,7 @@ def feed_xml(log: list, by_id: dict) -> str:
                         for x in entry.get("added", []) if isinstance(x, str) and x in by_id)
         desc = f"<p>{e(entry['summary'])}</p>" + (f"<ul>{added}</ul>" if added else "")
         items.append(f"""<item><title>{e(entry['date'] + ' ' + entry['summary'])}</title>
-<link>{SITE_URL}changelog.html#v{entry['date']}</link><guid>{SITE_URL}changelog.html#v{entry['date']}</guid>
+<link>{SITE_URL}changelog.html#{entry['anchor']}</link><guid>{SITE_URL}changelog.html#{entry['anchor']}</guid>
 <pubDate>{format_datetime(d)}</pubDate><description>{e(desc)}</description></item>""")
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>{e(TITLE)} · 更新日志</title><link>{SITE_URL}</link>
@@ -270,6 +270,13 @@ def main() -> int:
     if errs:
         print("数据校验失败：\n" + "\n".join(f"  - {x}" for x in errs), file=sys.stderr)
         return 1
+    # Keep the original date link stable when another entry is added that day.
+    day_counts = {}
+    for entry in reversed(log):
+        day = entry["date"]
+        number = day_counts.get(day, 0) + 1
+        day_counts[day] = number
+        entry["anchor"] = f"v{day}" if number == 1 else f"v{day}-{number}"
     by_id = {r["id"]: r for r in data["resources"]}
     updated = log[0]["date"] if log else today()
     new_ids = {x for entry in log[:2] if not entry.get("initial") for x in entry.get("added", []) if isinstance(x, str)}
@@ -292,7 +299,7 @@ def main() -> int:
     latest = ""
     if log:
         l0 = log[0]
-        latest = (f'<p class="latest">最近一次更新 <a href="changelog.html#v{e(l0["date"])}">{e(l0["date"])}</a>：'
+        latest = (f'<p class="latest">最近一次更新 <a href="changelog.html#{e(l0["anchor"])}">{e(l0["date"])}</a>：'
                   f'{e(l0["summary"])}</p>')
     header = rd("header.html").replace("<!-- LATEST -->", latest)
 

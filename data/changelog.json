@@ -1,6 +1,59 @@
 [
  {
   "date": "2026-11-19",
+  "summary": "每周更新：新增高效语言模型课程、MoE 专家卸载实测与五篇推理论文；复核 25 个主链接。",
+  "stats": {
+   "候选": 20,
+   "审核": 13,
+   "新增": 7,
+   "移除": 0
+  },
+  "added": [
+   "arxiv-2611-24301",
+   "arxiv-2611-23835",
+   "hf-moe-expert-streaming",
+   "stanford-msande319",
+   "arxiv-2611-01704",
+   "arxiv-2611-04382",
+   "arxiv-2611-10096"
+  ],
+  "changed": [
+   {
+    "id": "karpathy-nn-zero-to-hero",
+    "title": "karpathy/nn-zero-to-hero",
+    "reason": "已标注为常青教材，清除遗留的久未更新提示。"
+   },
+   {
+    "id": "karpathy-build-nanogpt",
+    "title": "karpathy/build-nanogpt",
+    "reason": "已标注为常青教材，清除遗留的久未更新提示。"
+   },
+   {
+    "id": "karpathy-nanogpt",
+    "title": "karpathy/nanoGPT",
+    "reason": "已标注为常青教材，清除遗留的久未更新提示。"
+   },
+   {
+    "id": "karpathy-mingpt",
+    "title": "karpathy/minGPT",
+    "reason": "已标注为常青教材，清除遗留的久未更新提示。"
+   },
+   {
+    "id": "harvardnlp-annotated-transformer",
+    "title": "harvardnlp/annotated-transformer",
+    "reason": "已标注为常青教材，清除遗留的久未更新提示。"
+   },
+   {
+    "id": "mlabonne-llm-course-chn",
+    "title": "friendmine/llm-course-chn",
+    "reason": "保留基础章节，注明译本最后更新于 2024 年 4 月。"
+   }
+  ],
+  "removed": [],
+  "guide_changes": []
+ },
+ {
+  "date": "2026-11-19",
   "summary": "手动新增：Tiny-LLM 推理系统项目课程",
   "stats": {"新增": 1},
   "added": ["skyzh-tiny-llm"],
