@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "categories": [
   {
    "id": "courses",
@@ -58,10 +58,10 @@
    "pick": true,
    "added": "2026-11-15",
    "score": 10,
-   "stars": 108652,
+   "stars": 108669,
    "pushed_at": "2026-11-09",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -78,10 +78,10 @@
    "pick": true,
    "added": "2026-11-15",
    "score": 9,
-   "stars": 85156,
+   "stars": 85162,
    "pushed_at": "2026-02-05",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -103,11 +103,11 @@
    "pick": true,
    "added": "2026-11-15",
    "score": 10,
-   "stars": 25847,
+   "stars": 25856,
    "pushed_at": "2024-08-18",
    "status": "ok",
    "evergreen": true,
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -129,10 +129,10 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 8,
-   "stars": 123850,
+   "stars": 123866,
    "pushed_at": "2026-11-19",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -154,11 +154,11 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 10,
-   "stars": 5656,
+   "stars": 5657,
    "pushed_at": "2024-08-13",
    "status": "ok",
    "evergreen": true,
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -175,11 +175,11 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 9,
-   "stars": 64911,
+   "stars": 64933,
    "pushed_at": "2025-11-12",
    "status": "ok",
    "evergreen": true,
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -196,11 +196,11 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 9,
-   "stars": 25036,
+   "stars": 25038,
    "pushed_at": "2024-08-15",
    "status": "ok",
    "evergreen": true,
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -222,11 +222,11 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 9,
-   "stars": 7608,
+   "stars": 7606,
    "pushed_at": "2024-04-07",
    "status": "ok",
    "evergreen": true,
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -246,7 +246,7 @@
    "stars": 1361,
    "pushed_at": "2026-01-29",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -268,10 +268,10 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 8,
-   "stars": 9193,
+   "stars": 9196,
    "pushed_at": "2026-06-06",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -288,10 +288,10 @@
    "pick": true,
    "added": "2026-11-15",
    "score": 9,
-   "stars": 32824,
+   "stars": 32831,
    "pushed_at": "2026-11-17",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -316,7 +316,7 @@
    "stars": 14320,
    "pushed_at": "2026-08-27",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -336,7 +336,7 @@
    "stars": 356,
    "pushed_at": "2024-04-03",
    "status": "stale",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": "译本最后更新于 2024 年 4 月，适合阅读基础章节；近期课程内容请参照英文原版。"
   },
   {
@@ -361,7 +361,7 @@
    "stars": 4374,
    "pushed_at": "2026-11-17",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -386,7 +386,7 @@
    "stars": 6796,
    "pushed_at": "2026-11-17",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -403,10 +403,10 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 8,
-   "stars": 18598,
+   "stars": 18596,
    "pushed_at": "2026-05-19",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -431,7 +431,7 @@
    "stars": 365,
    "pushed_at": "2026-08-09",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": "Udemy 课程本身需要付费，GitHub 配套代码免费"
   },
   {
@@ -451,7 +451,7 @@
    "stars": 722,
    "pushed_at": "2026-07-21",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -471,7 +471,7 @@
    "stars": 191,
    "pushed_at": "2026-11-13",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -493,10 +493,10 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 7,
-   "stars": 5859,
+   "stars": 5861,
    "pushed_at": "2026-11-19",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -512,7 +512,7 @@
    "added": "2026-11-15",
    "score": 8,
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -529,10 +529,10 @@
    "pick": false,
    "added": "2026-11-15",
    "score": 9,
-   "stars": 66612,
+   "stars": 66866,
    "pushed_at": "2026-11-18",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -550,9 +550,9 @@
    "added": "2026-11-15",
    "score": 9,
    "stars": 12204,
-   "pushed_at": "2026-11-17",
+   "pushed_at": "2026-11-19",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": ""
   },
   {
@@ -574,10 +574,10 @@
    "pick": false,
    "added": "2026-11-19",
    "score": 9,
-   "stars": 5787,
+   "stars": 5789,
    "pushed_at": "2026-11-16",
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": "进阶项目；需 Apple silicon，官方测试仅支持 MLX"
   },
   {
@@ -602,7 +602,7 @@
    "stars": null,
    "pushed_at": null,
    "status": "ok",
-   "last_checked": "2026-11-19",
+   "last_checked": "2026-11-20",
    "note": "无可运行代码；适合想深入理解 DPO 推导的读者"
   },
   {
@@ -623,7 +623,7 @@
    "stars": null,
    "pushed_at": null,
    "status": "ok",
-   "last_checked": "2026-11-19"
+   "last_checked": "2026-11-20"
   },
   {
    "id": "arxiv-2611-23835",
@@ -643,7 +643,7 @@
    "stars": null,
    "pushed_at": null,
    "status": "ok",
-   "last_checked": "2026-11-19"
+   "last_checked": "2026-11-20"
   },
   {
    "id": "hf-moe-expert-streaming",
@@ -662,7 +662,7 @@
    "stars": null,
    "pushed_at": null,
    "status": "ok",
-   "last_checked": "2026-11-19"
+   "last_checked": "2026-11-20"
   },
   {
    "id": "stanford-msande319",
@@ -681,7 +681,7 @@
    "stars": null,
    "pushed_at": null,
    "status": "ok",
-   "last_checked": "2026-11-19"
+   "last_checked": "2026-11-20"
   },
   {
    "id": "arxiv-2611-01704",
@@ -700,7 +700,7 @@
    "stars": null,
    "pushed_at": null,
    "status": "ok",
-   "last_checked": "2026-11-19"
+   "last_checked": "2026-11-20"
   },
   {
    "id": "arxiv-2611-04382",
@@ -719,7 +719,7 @@
    "stars": null,
    "pushed_at": null,
    "status": "ok",
-   "last_checked": "2026-11-19"
+   "last_checked": "2026-11-20"
   },
   {
    "id": "arxiv-2611-10096",
@@ -738,7 +738,140 @@
    "stars": null,
    "pushed_at": null,
    "status": "ok",
-   "last_checked": "2026-11-19"
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "arxiv-2611-10178",
+   "title": "The Storage View of KV Cache: Characterizing Cache Behavior Across LLM Workloads",
+   "url": "https://arxiv.org/html/2611.10178",
+   "extra_links": [],
+   "category": "academic",
+   "type": "academic",
+   "format": "paper",
+   "lang": "英文",
+   "github": null,
+   "desc": "比较聊天、检索和智能体负载中的 KV 块生命周期与复用，解释缓存分层存储的取舍。",
+   "pick": false,
+   "added": "2026-11-20",
+   "score": 8,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "arxiv-2611-07605",
+   "title": "The Gating Mechanism of KV Cache Eviction",
+   "url": "https://arxiv.org/html/2611.07605",
+   "extra_links": [],
+   "category": "academic",
+   "type": "academic",
+   "format": "paper",
+   "lang": "英文",
+   "github": null,
+   "desc": "从注意力权重推导可学习的缓存淘汰门，分析为何稠密注意力的训练目标难以教会模型淘汰。",
+   "pick": false,
+   "added": "2026-11-20",
+   "score": 8,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "arxiv-2611-05903",
+   "title": "EchoKV: Self-Corrective KV Cache Eviction via Iterative Query Feedback",
+   "url": "https://arxiv.org/html/2611.05903",
+   "extra_links": [],
+   "category": "academic",
+   "type": "academic",
+   "format": "paper",
+   "lang": "英文",
+   "github": null,
+   "desc": "通过迭代查询反馈修正首轮 KV 筛选，展示长上下文检索中误删信息的代价。",
+   "pick": false,
+   "added": "2026-11-20",
+   "score": 8,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "arxiv-2611-23807v1",
+   "title": "Sightline: Long-Window Speculative Decoding for Fast SVG Generation",
+   "url": "https://arxiv.org/html/2611.23807v1",
+   "extra_links": [],
+   "category": "academic",
+   "type": "academic",
+   "format": "paper",
+   "lang": "英文",
+   "github": null,
+   "desc": "用 SVG 生成实验解释验证窗口和草稿树宽度如何共同限制推测解码的加速效果。",
+   "pick": false,
+   "added": "2026-11-20",
+   "score": 8,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "hf-transformers-mic",
+   "title": "Transformers Model Integration Contracts",
+   "url": "https://huggingface.co/blog/transformers-mic",
+   "extra_links": [],
+   "category": "official-docs",
+   "type": "official",
+   "format": "article",
+   "lang": "英文",
+   "github": null,
+   "desc": "以 UMT5 因果掩码错误为例，说明如何测试注意力实现，防止训练时看到未来词元。",
+   "pick": false,
+   "added": "2026-11-20",
+   "score": 8,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "dharma-fine-tuning-time",
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "extra_links": [],
+   "category": "training",
+   "type": "community",
+   "format": "article",
+   "lang": "英文",
+   "github": null,
+   "desc": "用 272 次微调作业解释为何仅凭 FLOPs 会低估耗时，并分析评估、存盘与输入输出开销。",
+   "pick": false,
+   "added": "2026-11-20",
+   "score": 8,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "fareedkhan-dev-train-llm-from-scratch",
+   "title": "Train LLM From Scratch",
+   "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+   "extra_links": [],
+   "category": "from-scratch",
+   "type": "community",
+   "format": "repo",
+   "lang": "英文",
+   "github": "FareedKhan-dev/train-llm-from-scratch",
+   "desc": "提供笔记本电脑可用的 TinyStories 训练路线，从手写字节级 BPE 一直做到生成文本。",
+   "pick": false,
+   "added": "2026-11-20",
+   "score": 8,
+   "stars": 13276,
+   "pushed_at": "2026-11-16",
+   "status": "ok",
+   "last_checked": "2026-11-20"
   }
  ]
 }

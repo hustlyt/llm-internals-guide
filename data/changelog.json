@@ -1,5 +1,27 @@
 [
  {
+  "date": "2026-11-20",
+  "summary": "复核 32 个主链接，新增 7 条资料，涵盖 KV 缓存淘汰、推测解码和微调耗时。",
+  "stats": {
+   "候选": 17,
+   "审核": 10,
+   "新增": 7,
+   "移除": 0
+  },
+  "added": [
+   "arxiv-2611-10178",
+   "arxiv-2611-07605",
+   "arxiv-2611-05903",
+   "arxiv-2611-23807v1",
+   "hf-transformers-mic",
+   "dharma-fine-tuning-time",
+   "fareedkhan-dev-train-llm-from-scratch"
+  ],
+  "changed": [],
+  "removed": [],
+  "guide_changes": []
+ },
+ {
   "date": "2026-11-19",
   "summary": "每周更新：新增高效语言模型课程、MoE 专家卸载实测与五篇推理论文；复核 25 个主链接。",
   "stats": {
