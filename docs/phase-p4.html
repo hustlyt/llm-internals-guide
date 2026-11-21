@@ -128,15 +128,16 @@ li.del{color:var(--muted);text-decoration:line-through}
 <div class="wrap">
 <div class="layout"><aside class="side"><a class="back" href="path.html">学习路线</a><a href="phase-p0.html"><b>P0</b> 数学与神经网络前置</a><a href="phase-p1.html"><b>P1</b> Transformer 核心架构</a><a href="phase-p2.html"><b>P2</b> 位置编码与 KV Cache</a><a href="phase-p3.html"><b>P3</b> 预训练、分词器与缩放律</a><a href="phase-p4.html" class=on><b>P4</b> 对齐与微调</a><a href="phase-p5.html"><b>P5</b> 推理优化与部署</a><a href="phase-p6.html"><b>P6</b> 前沿专题（选修）</a></aside><article class="phasepage"><p class="crumb">P4 · 第 6–7 周</p><h1>对齐与微调</h1><p class="lead">SFT、RLHF、DPO、LoRA/PEFT，从基座模型到可用助手</p><h2>要读什么</h2><h3>必做</h3>
 <ul>
-  <li><a href="https://github.com/rasbt/LLMs-from-scratch">LLMs-from-scratch</a> 第 7 章（指令微调/SFT）：用 Alpaca 格式数据微调，含数据格式化、loss mask、评估</li>
-  <li><a href="https://github.com/huggingface/smol-course">HuggingFace smol-course</a> 第 1–3 课：SFT、DPO、合成数据，notebook 可在 Colab 免费运行</li>
+  <li><a href="https://github.com/rasbt/LLMs-from-scratch">LLMs-from-scratch</a> 第 7 章用指令数据做 SFT，附录 E 实现 LoRA。检查数据格式、训练标签和验证集，区分指令微调任务和减少可训练参数的方法。</li>
+  <li><a href="https://github.com/huggingface/smol-course">Hugging Face smol-course</a> 第 1–3 课依次讲指令微调、评估、偏好对齐。用同一份留出的样本比较基座模型和微调模型。</li>
 </ul>
 <h3>选读</h3>
 <ul>
   <li><a href="https://github.com/datawhalechina/self-llm">self-llm</a>：选一个你感兴趣的模型（Qwen2.5 / LLaMA / Mistral），跟着配套脚本做一遍 LoRA 微调，直接在 GPU 机器上跑</li>
   <li><a href="https://github.com/meta-llama/llama-cookbook">llama-cookbook</a> <code>recipes/finetuning/</code>：QLoRA + FSDP 分布式微调 recipe，含显存估算指南</li>
-</ul><div class="goal big">✔ 学完应做出：用 LoRA 在一个开源基座模型上做 SFT，对比微调前后的输出质量。</div><nav class="pn"><a href="phase-p3.html">← P3 预训练、分词器与缩放律</a><a href="phase-p5.html">P5 推理优化与部署 →</a></nav></article></div>
-<footer>最近更新：2026-11-20 · 每周一自动检索新资料、核对链接、审核后发布 ·
+</ul>
+<div class="goal big">✔ 学完应做出：用 LoRA 在一个开源基座模型上做 SFT，对比微调前后的输出质量。</div><nav class="pn"><a href="phase-p3.html">← P3 预训练、分词器与缩放律</a><a href="phase-p5.html">P5 推理优化与部署 →</a></nav></article></div>
+<footer>最近更新：2026-11-22 · 每周一自动检索新资料、核对链接、审核后发布 ·
 <a href="changelog.html">更新日志</a> · <a href="feed.xml">RSS</a> · <a href="https://github.com/hustlyt/llm-internals-guide">源码与数据</a></footer>
 </div>
 </body></html>

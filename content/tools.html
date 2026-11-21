@@ -39,7 +39,7 @@
   </div>
   <div class="card">
     <div class="role">在线 · BPE 训练过程</div>
-    <h4><a href="https://huggingface.co/learn/nlp-course/chapter6/5" target="_blank">HF NLP Course — BPE 章节</a></h4>
+    <h4><a href="https://huggingface.co/learn/llm-course/en/chapter6/5" target="_blank">Hugging Face LLM Course · BPE</a></h4>
     <p>HuggingFace 课程第 6 章第 5 节，逐步演示 BPE 合并步骤，含可运行代码，对照 LLMs-from-scratch 第 2 章一起读效果最好。</p>
   </div>
 </div>
@@ -77,7 +77,7 @@
   <div class="card">
     <div class="role">在线 · Colab 环境</div>
     <h4><a href="https://colab.research.google.com" target="_blank">Google Colab</a></h4>
-    <p>免费 GPU/TPU 环境，LLMs-from-scratch 和 mlabonne/llm-course 的所有 Notebook 均可直接在 Colab 运行，无需本地 GPU。T4 15GB 可跑 7B 模型 INT4 量化推理。</p>
+    <p>在浏览器运行 Notebook。免费层的 GPU 类型、使用配额和最长运行时间会变化。运行前检查 Notebook 的依赖、显存和运行时间。</p>
   </div>
   <div class="card">
     <div class="role">在线 · 模型显存估算</div>
@@ -85,9 +85,9 @@
     <p>输入模型名和精度（FP32/FP16/INT8/INT4），估算推理和训练所需显存。在 P5（推理优化）阶段规划显存预算时使用。</p>
   </div>
   <div class="card">
-    <div class="role">在线 · LoRA 参数计算器</div>
-    <h4><a href="https://huggingface.co/spaces/Nephele/lora-parameter-calculator" target="_blank">LoRA Parameter Calculator (HF Space)</a></h4>
-    <p>输入基座模型大小和 LoRA rank/alpha，计算可训练参数量和占比，帮助选择 rank 值与权衡效果和速度。P4（微调）阶段使用。</p>
+    <div class="role">练习 · LoRA 参数估算</div>
+    <h4><a href="https://arxiv.org/abs/2106.09685" target="_blank">LoRA 原论文</a></h4>
+    <p>对每个适配的线性层，矩阵输入和输出维度分别为 <code>d_in</code> 和 <code>d_out</code>，则低秩矩阵新增 <code>r × (d_in + d_out)</code> 个参数。将目标层逐个加总，再与框架统计的可训练参数数目核对。</p>
   </div>
 </div>
 </section>

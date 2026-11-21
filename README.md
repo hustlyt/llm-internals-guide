@@ -4,9 +4,11 @@
 
 **网站：** https://hustlyt.github.io/llm-internals-guide/ · [资料库（可搜索）](https://hustlyt.github.io/llm-internals-guide/resources.html) · [更新日志](https://hustlyt.github.io/llm-internals-guide/changelog.html) · [RSS](https://hustlyt.github.io/llm-internals-guide/feed.xml)
 
+在本仓库根目录运行 `python3 -m http.server 8000 --bind 127.0.0.1 --directory docs`，打开 [本地课程](http://127.0.0.1:8000/) 可阅读当前工作区中的站点。
+
 ## 推荐主教材
 
-[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)（108k★）——用 PyTorch 从零实现 ChatGPT 式 LLM，16 章含预训练→SFT→RLHF→量化，每章独立 Notebook。
+[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) 用 PyTorch 从零实现 GPT。全书 7 章，覆盖分词、注意力、预训练、分类微调和指令微调，并附配套 Notebook。附录 E 讲 LoRA，仓库补充材料另有 KV Cache 和 DPO。
 
 配合 [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero) 视频系列（P0–P1 阶段）和 [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm)（P4–P5 中文实战）。
 

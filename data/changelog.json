@@ -1,5 +1,47 @@
 [
  {
+  "date": "2026-11-22",
+  "summary": "纠正主教材章节、KV Cache 与预训练练习，加入 nanochat 和 vLLM 可对照的推理测试材料。",
+  "stats": {
+   "新增": 2,
+   "修订资料": 4
+  },
+  "added": [
+   "karpathy-nanochat",
+   "vllm-benchmark-cli"
+  ],
+  "changed": [
+   {
+    "id": "rasbt-llms-from-scratch",
+    "title": "rasbt/LLMs-from-scratch",
+    "reason": "按出版社与作者仓库目录修正章节和内容范围。"
+   },
+   {
+    "id": "karpathy-nanogpt",
+    "title": "karpathy/nanoGPT",
+    "reason": "标明停更，保留作为小规模实验参考。"
+   },
+   {
+    "id": "huggingface-course",
+    "title": "huggingface/course",
+    "reason": "使用现行的 LLM Course 入口。"
+   },
+   {
+    "id": "tanishqkumar-beyond-nanogpt",
+    "title": "tanishqkumar/beyond-nanogpt",
+    "reason": "依据仓库的实际目录更新学习范围。"
+   }
+  ],
+  "removed": [],
+  "guide_changes": [
+   "P2 校正位置编码和 KV Cache 的章节与计算量描述，用 logits 一致性检查实现。",
+   "P3 分开 BPE 与字符级数据路径，加入 nanochat 端到端工程对照。",
+   "P4 按实际课程目录区分 SFT、评估、偏好对齐与 LoRA。",
+   "P5–P6 用官方量化、vLLM 压测、FlashAttention 与 Mamba 实现替换错误的章节或文件名。",
+   "工具页用 LoRA 原论文和参数估算练习替代无法访问的计算器。"
+  ]
+ },
+ {
   "date": "2026-11-20",
   "summary": "复核 32 个主链接，新增 7 条资料，涵盖 KV 缓存淘汰、推测解码和微调耗时。",
   "stats": {
@@ -77,23 +119,58 @@
  {
   "date": "2026-11-19",
   "summary": "手动新增：Tiny-LLM 推理系统项目课程",
-  "stats": {"新增": 1},
-  "added": ["skyzh-tiny-llm"],
+  "stats": {
+   "新增": 1
+  },
+  "added": [
+   "skyzh-tiny-llm"
+  ],
   "changed": [],
   "removed": [],
-  "guide_changes": ["P5 选读增加 Tiny-LLM 进阶项目，标注 Apple silicon 要求"]
+  "guide_changes": [
+   "P5 选读增加 Tiny-LLM 进阶项目，标注 Apple silicon 要求"
+  ]
  },
  {
   "date": "2026-11-15",
   "summary": "每周更新：新增 3 条（minimind 中文全流程教程、LeetCUDA CUDA 内核书、RLHF/DPO 数学基础论文）；6 条 stale 资料标注 evergreen",
-  "stats": {"候选": 32, "审核": 13, "新增": 3, "移除": 0},
-  "added": ["jingyaogong-minimind", "xlite-dev-leetcuda", "arxiv-2610-31862"],
+  "stats": {
+   "候选": 32,
+   "审核": 13,
+   "新增": 3,
+   "移除": 0
+  },
+  "added": [
+   "jingyaogong-minimind",
+   "xlite-dev-leetcuda",
+   "arxiv-2610-31862"
+  ],
   "changed": [
-   {"id": "karpathy-nn-zero-to-hero", "title": "karpathy/nn-zero-to-hero", "reason": "标注 evergreen: true，经典教材不因长期未推送而移除"},
-   {"id": "karpathy-build-nanogpt", "title": "karpathy/build-nanogpt", "reason": "标注 evergreen: true"},
-   {"id": "karpathy-nanogpt", "title": "karpathy/nanoGPT", "reason": "标注 evergreen: true"},
-   {"id": "karpathy-mingpt", "title": "karpathy/minGPT", "reason": "标注 evergreen: true"},
-   {"id": "harvardnlp-annotated-transformer", "title": "harvardnlp/annotated-transformer", "reason": "标注 evergreen: true"}
+   {
+    "id": "karpathy-nn-zero-to-hero",
+    "title": "karpathy/nn-zero-to-hero",
+    "reason": "标注 evergreen: true，经典教材不因长期未推送而移除"
+   },
+   {
+    "id": "karpathy-build-nanogpt",
+    "title": "karpathy/build-nanogpt",
+    "reason": "标注 evergreen: true"
+   },
+   {
+    "id": "karpathy-nanogpt",
+    "title": "karpathy/nanoGPT",
+    "reason": "标注 evergreen: true"
+   },
+   {
+    "id": "karpathy-mingpt",
+    "title": "karpathy/minGPT",
+    "reason": "标注 evergreen: true"
+   },
+   {
+    "id": "harvardnlp-annotated-transformer",
+    "title": "harvardnlp/annotated-transformer",
+    "reason": "标注 evergreen: true"
+   }
   ],
   "removed": [],
   "guide_changes": []

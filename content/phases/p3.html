@@ -1,10 +1,10 @@
 <h3>必做</h3>
 <ul>
-  <li><a href="https://github.com/rasbt/LLMs-from-scratch">LLMs-from-scratch</a> 第 2 章（分词与数据加载）+ 第 5 章（预训练循环）：训练一个真实的 BPE 分词器，跑一遍预训练 loop</li>
-  <li><a href="https://github.com/karpathy/nanoGPT">karpathy/nanoGPT</a> <code>data/</code> 目录：看 prepare.py，理解训练数据的 tokenize→mmap 存储流程</li>
+  <li><a href="https://github.com/rasbt/LLMs-from-scratch">LLMs-from-scratch</a> 第 2 章讲如何使用 BPE 分词器、切分和加载序列，第 5 章讲预训练循环。独立训练一个小 BPE 分词器可跟做 <a href="https://huggingface.co/learn/llm-course/en/chapter6/5">Hugging Face 的 BPE 实验</a>。</li>
+  <li>经典小实验：对照 <a href="https://github.com/karpathy/nanoGPT/blob/master/data/shakespeare/prepare.py">nanoGPT 的 BPE 数据脚本</a>与 <a href="https://github.com/karpathy/nanoGPT/blob/master/data/shakespeare_char/prepare.py">字符级脚本</a>。先切分训练文本与验证文本，用训练集拟合分词器，再画训练与验证 loss 曲线。</li>
 </ul>
 <h3>选读</h3>
 <ul>
-  <li><a href="https://github.com/huggingface/course">HuggingFace NLP Course</a> 第 6 章（Tokenizers）：BPE、WordPiece、Unigram 对比，含可运行代码</li>
-  <li>Chinchilla 论文（Hoffmann et al., 2022）<code>arxiv.org/abs/2203.15556</code>：缩放律核心论文，读摘要+图 1+图 2 足矣</li>
+  <li><a href="https://github.com/karpathy/nanochat">karpathy/nanochat</a> 是 nanoGPT 的后续项目。对照 README 的目录，看分词器训练、预训练、评估与聊天推理怎么串起来。</li>
+  <li><a href="https://arxiv.org/abs/2203.15556">Chinchilla 论文</a>（Hoffmann 等，2022）：看摘要和图 1–2，理解给定训练算力时模型参数和训练 token 如何共同分配。</li>
 </ul>

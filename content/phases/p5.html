@@ -1,11 +1,11 @@
 <h3>必做</h3>
 <ul>
-  <li><a href="https://github.com/rasbt/LLMs-from-scratch">LLMs-from-scratch</a> 附录 E（量化章节）：INT8/INT4 权重量化从零实现，含精度对比</li>
-  <li><a href="https://github.com/mlabonne/llm-course">mlabonne/llm-course</a> 推理优化部分：Flash Attention、Paged Attention、连续批处理、投机解码，每个主题都有对应 Notebook</li>
+  <li><a href="https://huggingface.co/docs/transformers/en/quantization/bitsandbytes">Transformers 官方量化指南</a>：用同一模型比较全精度或 BF16/FP16 与 8 位、4 位权重加载。分别观察模型占用与运行峰值显存，检查 KV Cache、运行时开销和输出质量。</li>
+  <li><a href="https://docs.vllm.ai/en/stable/benchmarking/cli/">vLLM Benchmark CLI</a>：用 <code>vllm bench serve</code> 固定硬件、输入与输出长度和请求负载，报告吞吐与 P95 首 token 延迟、每个输出 token 的平均耗时。锁定所用 vLLM 版本，记录各轮前缀缓存是否命中。</li>
 </ul>
 <h3>选读</h3>
 <ul>
-  <li><a href="https://github.com/tanishqkumar/beyond-nanogpt">beyond-nanogpt</a> <code>flash_attention.py</code>：Flash Attention 的最小化实现，对比朴素注意力的 HBM 访问次数</li>
+  <li><a href="https://arxiv.org/abs/2205.14135">FlashAttention 论文</a>与<a href="https://github.com/dao-ailab/flash-attention">官方实现</a>：理解分块与在线 softmax 如何减少 HBM 读写，并用数值容差比较参考输出。</li>
   <li><a href="https://github.com/datawhalechina/self-llm">self-llm</a> 量化部分：用 bitsandbytes / llama.cpp 做 INT4/INT8 量化部署的实战脚本</li>
   <li><a href="https://skyzh.github.io/tiny-llm/">Tiny-LLM</a> 进阶项目：用 MLX 为 Qwen3 实现推理、算子优化与连续批处理；约四周，需 Apple silicon</li>
 </ul>

@@ -53,7 +53,7 @@
    "format": "book",
    "lang": "英文",
    "github": "rasbt/LLMs-from-scratch",
-   "desc": "16 章，PyTorch 从零实现 ChatGPT 式 LLM；含预训练→SFT→RLHF，每章有配套 Notebook",
+   "desc": "7 章，用 PyTorch 实现 GPT、预训练和指令微调。附录 E 讲 LoRA，仓库另有 KV Cache 和 DPO。",
    "pick": true,
    "added": "2026-11-15",
    "score": 10,
@@ -175,7 +175,7 @@
    "format": "repo",
    "lang": "英文",
    "github": "karpathy/nanoGPT",
-   "desc": "最快速的中型 GPT 训练/微调仓库，代码极简，配套 build-nanogpt 视频使用",
+   "desc": "经典小型 GPT 训练实现，适合拆解数据、训练循环和推理。",
    "pick": false,
    "added": "2026-11-15",
    "score": 9,
@@ -184,7 +184,7 @@
    "status": "ok",
    "evergreen": true,
    "last_checked": "2026-11-20",
-   "note": "",
+   "note": "作者已停止维护，新的端到端工程参见 nanochat。",
    "fail_count": 0
   },
   {
@@ -246,7 +246,7 @@
    "format": "repo",
    "lang": "英文",
    "github": "tanishqkumar/beyond-nanogpt",
-   "desc": "nanoGPT 之后：RoPE、GQA、LoRA、Flash Attention、Mamba、MoE 等关键论文的最小化实现",
+   "desc": "从小型实现学习 GQA、KV Cache、投机解码及其他深度学习论文中的方法。",
    "pick": false,
    "added": "2026-11-15",
    "score": 8,
@@ -358,7 +358,7 @@
    "extra_links": [
     {
      "label": "网站",
-     "url": "https://huggingface.co/learn/nlp-course"
+     "url": "https://huggingface.co/learn/llm-course/en/chapter1/1"
     }
    ],
    "category": "official-docs",
@@ -366,7 +366,7 @@
    "format": "course",
    "lang": "英文",
    "github": "huggingface/course",
-   "desc": "HuggingFace 官方 Transformers 课程：tokenization、Trainer API、微调、RLHF，免费认证",
+   "desc": "Hugging Face LLM 课程：Transformers、训练和使用分词器、小模型微调及推理。",
    "pick": false,
    "added": "2026-11-15",
    "score": 9,
@@ -903,6 +903,48 @@
    "pushed_at": "2026-11-16",
    "status": "ok",
    "last_checked": "2026-11-20"
+  },
+  {
+   "id": "karpathy-nanochat",
+   "title": "karpathy/nanochat",
+   "url": "https://github.com/karpathy/nanochat",
+   "extra_links": [],
+   "category": "from-scratch",
+   "type": "community",
+   "format": "repo",
+   "lang": "英文",
+   "github": "karpathy/nanochat",
+   "desc": "nanoGPT 后续工程，覆盖分词器训练、预训练、评估、指令微调、聊天推理。",
+   "pick": false,
+   "added": "2026-11-22",
+   "score": 9,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-22",
+   "note": "",
+   "fail_count": 0
+  },
+  {
+   "id": "vllm-benchmark-cli",
+   "title": "vLLM Benchmark CLI · 服务压测",
+   "url": "https://docs.vllm.ai/en/stable/benchmarking/cli/",
+   "extra_links": [],
+   "category": "inference",
+   "type": "official",
+   "format": "docs",
+   "lang": "英文",
+   "github": null,
+   "desc": "使用 vllm bench serve 对比请求负载、输出吞吐、首 token 和后续输出延迟。",
+   "pick": false,
+   "added": "2026-11-22",
+   "score": 9,
+   "stars": null,
+   "pushed_at": null,
+   "status": "ok",
+   "last_checked": "2026-11-22",
+   "note": "",
+   "fail_count": 0
   }
  ]
 }
